@@ -1,7 +1,8 @@
 extends Node2D
 var peer = NetworkedMultiplayerENet.new()
 var port = 7777
-var ip_address = "127.0.0.1"
+var ip_address = "your_railway_app_url"
+
 
 func _ready():
 	peer.create_server(port)
